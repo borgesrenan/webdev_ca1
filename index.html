@@ -7,46 +7,63 @@
   <meta name="CCT College Dublin Continuous Assessment" content="WebDev and Database Assignment">
   <link href="style.css" rel="stylesheet">
   <title>WebDev CA1 - Renan Borges</title>
+  <style>
+    .fixed-header {
+      border: 2px solid #777;
+      padding: 2rem;
+      text-align: center;
+      font-size: 6ex;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .table-row {
+      padding: 2rem;
+      text-align: center;
+      border: 2px solid #777;
+    }
+  </style>
 </head>
 
 <body>
-  <caption>
-    Higher Diploma in Science in Computing Assignment.
-  </caption>
-  <ul>
-    <li>
-      <a class="Employees" href="employees.html">Employees Table</a>
-    </li>
+  <header>
+    <div class="fixed-header">
+      <tr>
+        <th>HR Department</th>
+      </tr>
+    </div>
+  </header>
 
-    <li>
-      <a class="Departments" href="department.html">Departments Table</a>
-    </li>
-
-    <li>
-      <a class="Department Managers" href="department_manager.html">Department Managers Table</a>
-    </li>
-
-    <li>
-      <a class="Department Name" href="department_name.html">Department Names Table</a>
-    </li>
-
-    <li>
-      <a class="Job Title" href="job_title.html">Job Titles Table</a>
-    </li>
-
-    <li>
-      <a class="Gender" href="gender.html">Genders Table</a>
-    </li>
-
-    <li>
-      <a class="Salary" href="salary.html">Salaries Table</a>
-    </li>
-
-    <li>
-      <a class="Salary History" href="salary_history.html">Salary History Table</a>
-    </li>
-
-  </ul>
+  <header>
+    <div class="table-row">
+      <table border="1">
+        <thead>
+          <tr>
+            <th>
+              <a class="Employees" href="employees.html">Employees Table</a>
+            </th>
+            <th>
+              <a class="Departments" href="department.html">Departments Table</a>
+            </th>
+            <th>
+              <a class="Department Managers" href="department_manager.html">Department Managers Table</a>
+            </th>
+            <th>
+              <a class="Salary" href="salary.html">Salaries Table</a>
+            </th>
+            <th>
+              <a class="Salary History" href="salary_history.html">Salary History Table</a>
+            </th>
+            <th>
+              <a class="Job Title" href="job_title.html">Job Titles Table</a>
+            </th>
+            <th>
+              <a class="Gender" href="gender.html">Genders Table</a>
+            </th>
+          </tr>
+        </thead>
+    </div>
+    </table>
+  </header>
 </body>
 
 </html>
