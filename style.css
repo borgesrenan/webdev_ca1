@@ -1,22 +1,26 @@
 body {
-    font: normal medium/1.4 sans-serif;
-  }
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  th{
-    padding: 0.25rem;
-    text-align: center;
-    border: 1px solid #ccc;
-  }
-  td {
-    padding: 0.25rem;
-    text-align: left;
-    border: 1px solid #ccc;
-  }
-  tbody tr:nth-child(odd) {
-    background: #eee;
-    
-    
-  }
+  font: normal medium/1.4 sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  padding: 0.25rem;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+td {
+  padding: 0.25rem;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+tbody tr:nth-child(odd) {
+  background: #eee;
+
+
+}
